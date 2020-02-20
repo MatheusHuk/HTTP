@@ -1,0 +1,31 @@
+{
+  "name": "bootcamp",
+  "version": "0.0.0",
+  "description": "BootCamp examples",
+  "main": "server.js",
+  "dependencies": {
+    "@hapi/hapi": "^18.4.0",
+    "csv-parser": "^2.3.1",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "mysql": "^2.17.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node ./node_modules/nodemon/bin/nodemon.js -r dotenv/config server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheusHuk/the-game-api.git"
+  },
+  "author": "Matheus Huk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatheusHuk/the-game-api/issues"
+  },
+  "homepage": "https://github.com/MatheusHuk/the-game-api#readme"
+}
